@@ -1,0 +1,4 @@
+1.What happens when you initialize a repository? Why do you need to do it?
+
+  When I initialize a repository an empty git file is created. I need to do it
+  to create the initial repository git file.
