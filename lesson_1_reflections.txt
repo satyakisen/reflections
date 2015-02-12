@@ -1,0 +1,44 @@
+1.How did viewing a diff between two versions of a file help you see
+  the bug that was introduced?
+
+  Viewing a diff between the two versions of a file did help. It automatically
+  compares the changes made in the two files and gives us the result.
+  This technique is actually very fast way of finding bugs in newer versions
+  from the older version. The following commands are used to do it...
+  For Windows:
+   command: FC oldfilename newfilename
+  For Linux and Mac:
+   command: DIFF oldfilename newfilename
+
+2.How could having easy access to the entire history of a file make you
+  a more efficient programmerin the long term?
+
+ Well having an easy access to the entire history of a file would definitely
+ make anyone an efficient programmer because we can learn from our past.Joking
+ apart we would really get the benefit of how our coding is evolving through its
+ journey down the way.
+
+3.What do you think are the pros and cons of manually choosing when to create
+  commits,like you do in Git,vs having versions automatically saved.like Google docs does?
+
+  In automatic saving ,the saving can occur according to a fixed time but not through logical 
+  separation. Thus its quiet difficult to maintain two files that are automatically saved.
+  But for Git we know how to manually save and thus providing us the oppurtunity to save the
+  file manually.
+  In automatic saving as the saving occurs automatically one doesnot have to bother about
+  saving the file. But in manual saving sometimes forgetting to save causes a lot of trouble.
+
+4.Why do you think some version control systems, like Git, allow saving multiple files 
+ in one commit, while others, like Google Docs, treat each file separately?
+
+  Git allows saving of multiple files in one commit because if there is some interlinking between
+  the two files it can maintain very easily.But when it comes to Google Docs it doesnot occur.
+
+5.How can you use git log and git diff to view the history of the file?
+
+  git log commands gives the log of the commit id and the things that were changed. And git diff 
+  gives the difference between the two commit ids.
+
+6.How might using version control make you more confident to make changes that could break something?
+  
+  Its actually nice learning version control. Its very easy to set the projects on github and work on them.
